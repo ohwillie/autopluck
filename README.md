@@ -39,7 +39,7 @@ Autopluck.activate!
 to soft-deactivate, call
 
 ```ruby
-Autopluck.activate!
+Autopluck.deactivate!
 ```
 
 Everything else will be handled for you.

@@ -2,11 +2,15 @@
 
 An extension to ActiveRecord::Relation that converts calls of the form
 
+```ruby
 relation.map(&:id)
+```
 
 into
 
+```ruby
 relation.pluck('id')
+```
 
 ...automatically! It's kinda scary.
 
@@ -28,11 +32,15 @@ Or install it yourself as:
 
 To activate, call
 
+```ruby
 Autopluck.activate!
+```
 
 to soft-deactivate, call
 
+```ruby
 Autopluck.activate!
+```
 
 Everything else will be handled for you.
 
